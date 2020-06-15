@@ -1,7 +1,9 @@
 SimpleAngularApp, Udemy MattGreenCroft
 6/14/2020, Sun
 
-https://www.udemy.com/course/angular-hands-on-for-java-developers/learn/lecture/16679436#overview
+Intro to Typescript
+https://www.udemy.com/course/angular-hands-on-for-java-developers/learn/lecture/16688496#overview#url
+
 #url
 http://localhost:4200/
 
@@ -9,10 +11,19 @@ http://localhost:4200/
 ng g c Page1
 
 #notes
+1.
 variable in html: {{}}
-method event: () 
+method event, listening: (event)="someMethod()" 
 expression to eval: [xxx]=""
 structural directive = change the DOM
+
+2.
+@Output() 
+event = new EventEmitter();
+this.event.emit();
+
+3.
+Don't use *NgIf with template reference.
 
 
 #schema
